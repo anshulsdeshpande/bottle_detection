@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+       body{
+        font-family:Helvetica, sans-serif;
+        margin:00px;
+        padding:00px;
+        }
+        
+        header.feature-box.top{
+        height:800px;
+        background-color:black;
+        margin-top:00px;
+        background-image:url("../static/images/computer_vision_new.jpg");
+        background-size:100%;
+        background-position:center;
+
+        
+        }
+        
+        
+        
+        section.col-sm{
+          background-color:black;
+          width: 1000px;
+          height: 500px;
+          border-radius: 35px;
+          object-fit: contain;
+          margin:00px;
+        }
+
+        img{
+          width: 900px;
+          height: 450px;
+          border-radius: 35px;
+          object-fit: contain;
+          margin:20px;
+        }
+
+ 
+    </style>
+</head>
+<body>
+<header class="feature-box top">
+  
+ <section class="col-sm " >
+      <img src="{{ url_for('webapp') }}"   alt="Upload video">
+
+    </section>
+</header>
+
+
+
+</body>
+</html>
